@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../STEP3/JS_step3.css">
+</head>
+<body>
+<div class="inner">
+    <div class="title">🎈STEP3: 루빅큐브 Play!</div>
+    <div class="sub-title">
+        아래 버튼을 눌러 큐브를 맞춰주세요.
+        <button class="start">Game Start</butotn>
+    </div>
+    
+    
+    <div class="printCube">
+        <div class="top 0">윗면</div>
+        <div class="side">
+            <div class="left">좌측</div>
+            <div class="front">전면</div>
+            <div class="right">우측</div>
+            <div class="back">후면</div>
+        </div>
+        <div class="bottom 5">바닥</div>
+    </div>
+
+    <div class="clickOrder">
+        <div class="order">
+            <div class="order1">
+                <button>U</button>
+                <button>D</button>
+                <button>F</button>
+                <button>B</button>
+                <button>R</button>
+                <button>L</button>
+            </div>
+            <div class="order2">
+                <button>U'</button>
+                <button>D'</button>
+                <button>F'</button>
+                <button>B'</button>
+                <button>R'</button>
+                <button>L'</button>
+            </div>
+        </div>  
+        <div class="control">
+            <button>◀</button>
+            <button>▶</button>
+            <button id="Q">종료</button>
+        </div>
+    </div>
+</div>
+<script src="JS_step3.js"></script>
+</body>
+</html>

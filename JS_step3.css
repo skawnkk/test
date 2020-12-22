@@ -1,0 +1,77 @@
+/* common */
+body{
+    background-color: lightgray;
+}
+.inner{
+    margin: 15px auto;
+    width: 800px;
+    padding: 20px;
+    background-color: white;
+}
+.title{
+    font-size: larger;
+    font-weight: bolder;
+    border-bottom: 1px solid lightgray;
+}
+.sub-title{
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* step3 */
+.start{
+    border: 1px solid lightgrey;
+    font-size: larger;
+    color: lightsalmon;
+}
+.printCube{
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.printCube .top,
+.printCube .bottom{
+    display: inline-block;
+    margin-left: 80px;
+    border: 1px solid lightgrey;
+    background-color: rgba(87, 87, 209, 0.377);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+.printCube .side{
+    display: flex;
+}
+
+.printCube .side div{
+    margin: 10px 10px 10px 0;
+    border: 1px solid lightgrey;
+    background-color: rgba(87, 87, 209, 0.377);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+.clickOrder{
+    display: flex;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.clickOrder .order{
+    margin-right: 50px;
+}
+
+
+.clickOrder .order1{
+    margin-bottom: 10px;
+}
+
+.inner .clickOrder button{
+    width:50px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    
+}
